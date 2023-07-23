@@ -8,22 +8,22 @@ import java.util.ArrayList;
 
 import personal.pol.sanejove.pills.entities.Day;
 
-public class PillsAppSingletone extends AppCompatActivity {
+public class PillsAppSingleton extends AppCompatActivity {
 
     private ArrayList<Day> dayArrayList;
     private int currentPosition;
     private Context context;
 
     private static class SingletonInstance {
-        private static AppSingleton INSTANCE = new AppSingleton();
+        private static PillsAppSingleton INSTANCE = new PillsAppSingleton();
     }
 
-    public static AppSingleton getInstance() {
+    public static PillsAppSingleton getInstance() {
         return SingletonInstance.INSTANCE;
     }
 
-    private AppSingleton() {
+    private PillsAppSingleton() {
         //Constructor Singleton
-        pizzaOrder=new PizzaOrder();
+
     }
 }

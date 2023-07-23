@@ -1,4 +1,4 @@
-package personal.pol.sanejove.pills;
+package personal.pol.sanejove.pills.entities;
 
 import java.util.Date;
 

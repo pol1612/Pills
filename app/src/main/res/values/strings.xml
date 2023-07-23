@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Pills</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="not_given">NOT GIVEN</string>
+    <string name="given">GIVEN</string>
+    <string name="_30_g_pill">30 g Pill</string>
+    <string name="_20_g_liquid">20 g Liquid</string>
+    <string name="_10_g_pill">10 g Pill</string>
 </resources>
